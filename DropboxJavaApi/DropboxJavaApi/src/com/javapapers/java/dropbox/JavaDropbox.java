@@ -20,8 +20,8 @@ import com.dropbox.core.DbxWriteMode;
 
 public class JavaDropbox {
 
-	private static final String DROP_BOX_APP_KEY = "şifre";
-	private static final String DROP_BOX_APP_SECRET = "şifre";
+	private static final String DROP_BOX_APP_KEY = "calytsft2d58w1l";
+	private static final String DROP_BOX_APP_SECRET = "ubign6ujifau9x2";
 	DbxClient dbxClient;
 
 	public DbxClient authDropbox(String dropBoxAppKey, String dropBoxAppSecret)
@@ -114,11 +114,11 @@ public class JavaDropbox {
 
 
 //// local file belili olması şekilnde download fonksyoyu değişe bilir
-String localPath = "local.txt";
+/*String localPath = "local.txt";
 OutputStream outputStream = new FileOutputStream(localPath);
 FileMetadata metadata = client.files()
         .downloadBuilder("/Homework/Ağgüvenliği/dropbox.txt")
-        .download(outputStream);
+        .download(outputStream);*/
 
 
 //amin hashemian
