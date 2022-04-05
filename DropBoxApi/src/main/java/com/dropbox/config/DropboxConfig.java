@@ -12,7 +12,7 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource("classpath:data.properties")
 class DropboxConfig {
 
-    @Value("sl.BFGtmdp_vteOOfbOCZvWSuEqd0JGHpXVSoE8sURdh38chP7M3hPXUaXrFoBDPJFT5-P4d6l5T9TOm-vPrwiDJaKFgk9UuRRASJLHCR9PDih4vRnLNv4mtpLeUReSv5PVg4WthPrMnw9Y")
+    @Value("sl.BFGp9rauCV8mO0IqiZ93g7hFhZsmRq84qPTAhnJvEx-AT5xsXJFRmQDm82oTmZc-Oqa4_JSAuhhf2xG-aOB0n0UMgrHYJQGbfXmmEH1Ox88M8joqHsJhujuymoBxpPkrFHmSTgQsV41p")
     private String ACCESS_TOKEN;
 
     @Bean
