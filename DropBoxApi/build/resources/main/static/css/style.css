@@ -1,0 +1,45 @@
+body {
+    margin: 2em;
+}
+
+#btnFolder {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+#btnDownload {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#btnDelete {
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+#example{
+    background: black;
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    border-radius: 10px;
+
+
+
+}
